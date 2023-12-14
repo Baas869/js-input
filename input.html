@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input JavaScript</title>
+    <!-- <script defer src="input.js"></script> -->
+    <script defer src="input-es6.js"></script>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <div id="input-body">
+        <div class="input-container">
+            <h1 class="heading">Add Book</h1>
+            <div class="input-form">
+                <form action="" class="book-form">
+                    <div class="title-input input-content">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" placeholder="Go back home">
+                    </div>
+                    <div class="authors-input input-content">
+                        <label for="author">Author</label>
+                        <input type="text" id="author" placeholder="Baas">
+                    </div>
+                    <div class="isbn-input input-content">
+                        <label for="isbn">ISBN#</label>
+                        <input type="text" id="isbn" placeholder="0001#">
+                        <!-- <div class="error-message">fill in a correct ISBN(e.g4334#)</div> -->
+                    </div>
+                    <div >
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+
+            <div class="input-collection-table">
+                <div class="input-table">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Author</th>
+                                <th>ISBN#</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="book-list">
+                          
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
